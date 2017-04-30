@@ -97,7 +97,7 @@ describe('Recipes', function() {
     // we can make a second, PUT call to the app.
     const updateData = {
       name: 'boiled vegetables',
-      ingredients:['1 cup carrot', '2 cups water', 'pinch of salt']
+      ingredients:['1 cup carrot', '2 cups water', 'pinch of salt','pinch of sugar']
     };
 
     return chai.request(app)
