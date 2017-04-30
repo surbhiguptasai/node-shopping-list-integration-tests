@@ -67,7 +67,7 @@ describe('Recipes', function() {
   //  2. inspect response object and prove it has right
   //  status code and that the returned object has an `id`
   it('should add an item on POST', function() {
-    const newItem = {name: 'coffee', ingredients:['1 tsp coffee powder','1 cup milk','1 tsp sugar']};
+    const newItem = {name: 'Filter Coffee', ingredients:['1 tsp coffee powder','1 cup milk','1 tsp sugar']};
     return chai.request(app)
       .post('/recipes')
       .send(newItem)
